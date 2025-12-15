@@ -225,3 +225,68 @@ h2 {
   background: #ddd;
   margin: 0 .5rem;
 }
+
+
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.footer-left {
+  position: relative;
+  font-size: .8rem;
+}
+
+.press-trigger {
+  color: #666;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.press-contacts {
+  display: none;
+  position: absolute;
+  bottom: 1.4rem;
+  left: 0;
+  background: #fff;
+  padding: .8rem 1rem;
+  border: 1px solid #ddd;
+  width: 260px;
+}
+
+.press-contacts p {
+  font-size: .8rem;
+  margin-bottom: .8rem;
+}
+
+.press-contacts a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #aaa;
+}
+
+.footer-left:hover .press-contacts {
+  display: block;
+}
+
+
+
+
+
+.footer-right {
+  font-size: .8rem;
+}
+
+.footer-right a {
+  color: #666;
+  text-decoration: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.footer-right a:hover {
+  color: #111;
+  border-color: #111;
+}
