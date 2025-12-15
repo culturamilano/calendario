@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
+  background: #ffffff;
+  color: #111;
+  line-height: 1.5;
+}
+
+header {
+  padding: 3rem 1.5rem 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.period {
+  font-size: 0.9rem;
+  color: #777;
+  margin-top: 0.5rem;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+.month {
+  margin-bottom: 3rem;
+}
+
+.month h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.event {
+  margin-bottom: 2.5rem;
+}
+
+.date {
+  font-weight: 600;
+}
+
+.time,
+.place {
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.label {
+  margin-top: 0.75rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #666;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin: 0.4rem 0;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: #222;
+}
+
+.extra {
+  font-size: 0.85rem;
+  color: #666;
+  margin-top: 0.5rem;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+  color: #666;
+}
