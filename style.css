@@ -6,9 +6,9 @@
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", sans-serif;
-  background: #ffffff;
+  background: #fff;
   color: #111;
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 header {
@@ -26,31 +26,74 @@ h1 {
 }
 
 main {
-  max-width: 900px;
+  max-width: 960px;
   margin: 0 auto;
-  padding: 2rem 1.5rem;
+  padding: 2.5rem 1.5rem;
 }
 
 h2 {
   font-size: 1.4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.5rem;
 }
 
 /* EVENTI */
 
 .event {
-  margin-bottom: 3rem;
+  margin-bottom: 3.5rem;
 }
 
 .two-col {
   display: grid;
-  grid-template-columns: 1fr 260px;
-  gap: 2rem;
+  grid-template-columns: 260px 1fr;
+  gap: 2.5rem;
 }
 
-.event-main h3 {
-  font-size: 1.2rem;
+/* META (SINISTRA) */
+
+.event-meta {
+  font-size: .85rem;
+}
+
+.meta-date {
+  font-weight: 600;
+  margin-top: .75rem;
+}
+
+.meta-time,
+.meta-place {
+  margin-top: .25rem;
+  color: #444;
+}
+
+/* PILLS */
+
+.pill {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  padding: .35rem .6rem;
+  border-radius: 999px;
   margin-bottom: .5rem;
+}
+
+.pill-preview {
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  color: #333;
+}
+
+.pill-press {
+  background: #111;
+  color: #fff;
+}
+
+/* CONTENUTO (DESTRA) */
+
+.event-main h3 {
+  font-size: 1.25rem;
+  margin-bottom: .6rem;
 }
 
 .description {
@@ -64,84 +107,39 @@ h2 {
   margin-bottom: .75rem;
 }
 
-.actions {
-  margin-top: .5rem;
-}
-
 .actions button {
   background: none;
   border: none;
   border-bottom: 1px solid #999;
   font-size: .8rem;
-  margin-right: .75rem;
+  margin-right: 1rem;
   cursor: pointer;
   padding: 0;
-}
-
-/* META */
-
-.event-meta {
-  border-left: 1px solid #ddd;
-  padding-left: 1.25rem;
-  font-size: .85rem;
-}
-
-.meta-label {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  font-size: .7rem;
-  margin-bottom: .5rem;
-  color: #555;
-}
-
-.meta-date {
-  font-weight: 600;
-}
-
-.meta-time,
-.meta-place {
-  margin-top: .25rem;
-  color: #444;
 }
 
 /* FOOTER */
 
 .footer {
   border-top: 1px solid #ddd;
-  padding: 2rem 1.5rem;
-  max-width: 900px;
+  padding: 1.5rem;
+  max-width: 960px;
   margin: 0 auto;
-  font-size: .85rem;
-  color: #555;
+  font-size: .8rem;
+  color: #666;
 }
 
-.footer-block {
-  margin-bottom: 1.5rem;
-}
-
-.footer-title {
-  font-weight: 600;
-  margin-bottom: .25rem;
-  color: #111;
-}
-
-.footer a {
-  color: #111;
-  text-decoration: none;
-  border-bottom: 1px solid #999;
+.footer-note {
+  text-align: center;
 }
 
 /* MOBILE */
 
-@media (max-width: 700px) {
+@media (max-width: 760px) {
   .two-col {
     grid-template-columns: 1fr;
   }
 
   .event-meta {
-    border-left: none;
-    padding-left: 0;
-    margin-bottom: .75rem;
+    order: -1;
   }
 }
