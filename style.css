@@ -21,82 +21,127 @@ h1 {
 }
 
 .subtitle {
-  color: #555;
   margin-top: .25rem;
+  color: #555;
 }
 
 main {
-  max-width: 760px;
+  max-width: 900px;
   margin: 0 auto;
   padding: 2rem 1.5rem;
 }
 
-section {
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+/* EVENTI */
+
+.event {
   margin-bottom: 3rem;
 }
 
-h2 {
-  font-size: 1.3rem;
-  margin-bottom: 1.5rem;
+.two-col {
+  display: grid;
+  grid-template-columns: 1fr 260px;
+  gap: 2rem;
 }
 
-.event {
-  margin-bottom: 2.5rem;
-}
-
-.date {
-  font-weight: 600;
-}
-
-.time,
-.place {
-  font-size: .95rem;
-  color: #444;
-}
-
-.labels {
-  margin: .5rem 0;
-}
-
-.label {
-  font-size: .7rem;
-  text-transform: uppercase;
-  letter-spacing: .05em;
-  border: 1px solid #ccc;
-  padding: .25rem .4rem;
-  color: #555;
-}
-
-h3 {
-  font-size: 1.1rem;
-  margin: .4rem 0;
+.event-main h3 {
+  font-size: 1.2rem;
+  margin-bottom: .5rem;
 }
 
 .description {
   font-size: .95rem;
+  margin-bottom: .75rem;
 }
 
 .extra {
   font-size: .85rem;
   color: #666;
+  margin-bottom: .75rem;
 }
 
 .actions {
-  margin-top: .6rem;
+  margin-top: .5rem;
 }
 
-.ics-btn {
+.actions button {
   background: none;
   border: none;
   border-bottom: 1px solid #999;
   font-size: .8rem;
+  margin-right: .75rem;
   cursor: pointer;
+  padding: 0;
 }
 
-footer {
+/* META */
+
+.event-meta {
+  border-left: 1px solid #ddd;
+  padding-left: 1.25rem;
+  font-size: .85rem;
+}
+
+.meta-label {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-size: .7rem;
+  margin-bottom: .5rem;
+  color: #555;
+}
+
+.meta-date {
+  font-weight: 600;
+}
+
+.meta-time,
+.meta-place {
+  margin-top: .25rem;
+  color: #444;
+}
+
+/* FOOTER */
+
+.footer {
   border-top: 1px solid #ddd;
-  padding: 1.5rem;
-  font-size: .8rem;
-  color: #666;
-  text-align: center;
+  padding: 2rem 1.5rem;
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: .85rem;
+  color: #555;
+}
+
+.footer-block {
+  margin-bottom: 1.5rem;
+}
+
+.footer-title {
+  font-weight: 600;
+  margin-bottom: .25rem;
+  color: #111;
+}
+
+.footer a {
+  color: #111;
+  text-decoration: none;
+  border-bottom: 1px solid #999;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .event-meta {
+    border-left: none;
+    padding-left: 0;
+    margin-bottom: .75rem;
+  }
 }
