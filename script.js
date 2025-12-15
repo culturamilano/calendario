@@ -92,3 +92,36 @@ END:VCALENDAR`;
   });
 
 });
+
+
+/* =========================
+   FILTERS
+========================= */
+
+const filterButtons = document.querySelectorAll(".filters button");
+const events = document.querySelectorAll(".event");
+
+filterButtons.forEach(btn => {
+  btn.addEventListener("click", () => {
+
+    filterButtons.forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+
+    const type = btn.dataset.filter;
+    const month = btn.dataset.month;
+
+    events.forEach(event => {
+      let show = true;
+
+      if (type && type !== "all") {
+        show = event.dataset.type === type;
+      }
+
+      if (month) {
+        show = event.dataset.month === month;
+      }
+
+      event.style.display = show ? "" : "none";
+    });
+  });
+});
