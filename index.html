@@ -11,7 +11,7 @@
 
 <header>
   <h1>Agenda Stampa</h1>
-  <p class="subtitle">Cultura Milano · Dicembre 2025 – Febbraio 2026</p>
+  <p class="subtitle">Cultura Milano · Dicembre 2025</p>
 </header>
 
 <main>
@@ -19,44 +19,115 @@
 <section>
   <h2>Dicembre 2025</h2>
 
-  <article class="event"
+  <!-- EVENTO 1 -->
+  <article class="event two-col"
     data-title="Preview stampa · L’Italia sulla neve"
     data-date="20251218"
     data-start="1000"
     data-end="1200"
-    data-location="Castello Sforzesco, Sala Bertarelli">
+    data-location="Castello Sforzesco, Sala Bertarelli"
+    data-description="Preview stampa della mostra “L’Italia sulla neve”. In occasione dei Giochi Olimpici invernali, la mostra racconta il rapporto degli italiani con la neve, gli sport invernali e il loro immaginario attraverso manifesti, illustrazioni e materiali pubblicitari. Mostra al Castello Sforzesco dal 19 dicembre 2025 al 22 marzo 2026.">
 
-    <p class="date">Giovedì 18 dicembre 2025</p>
-    <p class="time">10:00–12:00</p>
-    <p class="place">Castello Sforzesco – Sala Bertarelli</p>
+    <!-- SINISTRA -->
+    <div class="event-main">
+      <h3>L’Italia sulla neve</h3>
 
-    <div class="labels">
-      <span class="label">Preview stampa</span>
+      <p class="description">
+        In occasione dei Giochi Olimpici invernali, la mostra racconta il rapporto degli italiani con la neve,
+        gli sport invernali e il loro immaginario, attraverso manifesti, illustrazioni e materiali pubblicitari,
+        con particolare attenzione alla moda legata alla vita in montagna e alle strategie di promozione
+        turistica delle località alpine.
+      </p>
+
+      <p class="extra">
+        Mostra al Castello Sforzesco dal 19 dicembre 2025 al 22 marzo 2026
+      </p>
+
+      <div class="actions">
+        <button type="button" class="ics-btn">Aggiungi al calendario</button>
+        <button type="button" class="gcal-btn">Google Calendar</button>
+      </div>
     </div>
 
-    <h3>L’Italia sulla neve</h3>
+    <!-- DESTRA -->
+    <aside class="event-meta">
+      <span class="meta-label">Preview stampa</span>
+      <p class="meta-date">Giovedì 18 dicembre 2025</p>
+      <p class="meta-time">10:00–12:00</p>
+      <p class="meta-place">
+        Castello Sforzesco<br>
+        Sala Bertarelli
+      </p>
+    </aside>
+  </article>
 
-    <p class="description">
-      In occasione dei Giochi Olimpici invernali, la mostra racconta il rapporto
-      degli italiani con la neve, gli sport invernali e il loro immaginario.
-    </p>
+  <!-- EVENTO 2 -->
+  <article class="event two-col"
+    data-title="Preview stampa · De Pas, D’Urbino, Lomazzi"
+    data-date="20251218"
+    data-start="1800"
+    data-end="1900"
+    data-location="CASVA | Centro di Alti Studi per le Arti Visive"
+    data-description="Preview stampa della mostra “De Pas, D’Urbino, Lomazzi. Fantasticamente effervescenti”. Omaggio ai designer autori di icone come la poltrona Blow e il divano Joe. Mostra al CASVA dal 19 dicembre 2025 al 12 aprile 2026.">
 
-    <p class="extra">Mostra: 19 dicembre 2025 – 22 marzo 2026</p>
+    <!-- SINISTRA -->
+    <div class="event-main">
+      <h3>De Pas, D’Urbino, Lomazzi. Fantasticamente effervescenti</h3>
 
-    <div class="actions">
-      <button class="ics-btn">Aggiungi al calendario</button>
+      <p class="description">
+        Un omaggio a De Pas, D’Urbino e Lomazzi, autori di icone come la poltrona Blow e il divano Joe.
+        La mostra mette in luce la loro ricerca su spazi abitativi flessibili, capaci di scardinare
+        la rigidità della casa tradizionale e di immaginare un design democratico e rivoluzionario.
+      </p>
+
+      <p class="extra">
+        Mostra al CASVA | Centro di Alti Studi per le Arti Visive dal 19 dicembre 2025 al 12 aprile 2026
+      </p>
+
+      <div class="actions">
+        <button type="button" class="ics-btn">Aggiungi al calendario</button>
+        <button type="button" class="gcal-btn">Google Calendar</button>
+      </div>
     </div>
 
+    <!-- DESTRA -->
+    <aside class="event-meta">
+      <span class="meta-label">Preview stampa</span>
+      <p class="meta-date">Giovedì 18 dicembre 2025</p>
+      <p class="meta-time">18:00</p>
+      <p class="meta-place">
+        CASVA<br>
+        Centro di Alti Studi per le Arti Visive
+      </p>
+    </aside>
   </article>
 
 </section>
 
 </main>
 
-<footer>
-  <p>Informazioni destinate agli operatori dell’informazione.</p>
+<footer class="footer">
+  <div class="footer-block">
+    <p class="footer-title">Contatti stampa</p>
+    <p>
+      Per informazioni e accreditamenti:<br>
+      <a href="mailto:ufficiostampa@comune.milano.it">
+        ufficiostampa@comune.milano.it
+      </a>
+    </p>
+  </div>
+
+  <div class="footer-block">
+    <p class="footer-title">Newsletter Cultura</p>
+    <p>
+      Aggiornamenti su mostre, eventi e attività culturali a Milano.<br>
+      <a href="#" target="_blank" rel="noopener">
+        Iscriviti alla Newsletter Cultura
+      </a>
+    </p>
+  </div>
 </footer>
 
-<script src="script.js"></script>
+<script defer src="script.js"></script>
 </body>
 </html>
