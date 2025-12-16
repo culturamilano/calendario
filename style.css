@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "c3";
+  src: url("fonts/c3.woff2") format("woff2"),
+       url("fonts/c3.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 * {
   margin: 0;
   padding: 0;
