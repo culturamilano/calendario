@@ -329,3 +329,98 @@ header {
   color: #111;
   border-color: #111;
 }
+
+
+
+/* =========================
+   LAYOUT BASE
+========================= */
+
+main {
+  width: 100%;
+}
+
+/* =========================
+   MONTH BLOCKS
+========================= */
+
+.month-block {
+  width: 100%;
+}
+
+/* linea SOLO tra mesi (non prima del primo) */
+.month-block + .month-block {
+  position: relative;
+  padding-top: 2.5rem;
+}
+
+.month-block + .month-block::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-top: 1px solid #000;
+}
+
+/* contenuto mese centrato */
+.month-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 1rem;
+}
+
+.month-inner h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+/* =========================
+   EVENTS
+========================= */
+
+.events > .event {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2.2rem 1.5rem;
+  position: relative;
+}
+
+/* linea SOLO tra eventi (non sopra il primo) */
+.events > .event + .event::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-top: 1px solid #000;
+}
+
+/* =========================
+   EVENT GRID (3 COLONNE)
+========================= */
+
+.three-col {
+  display: grid;
+  grid-template-columns: 260px 1fr 48px;
+  gap: 3rem;
+  align-items: start;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 820px) {
+  .three-col {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .events > .event {
+    padding: 1.6rem 1.2rem;
+  }
+}
