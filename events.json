@@ -48,8 +48,8 @@
       {
         "type": "preview",
         "date": "2026-01-20",
-        "start": "",
-        "end": "",
+        "start": "10:00",
+        "end": "12:00",
         "title": "Preview con visita guidata. Cantiere di restauro della Sala delle Asse di Leonardo da Vinci",
         "description": "Il Castello Sforzesco offre un’apertura straordinaria del cantiere di restauro della Sala delle Asse, consentendo di salire sui ponteggi e avvicinarsi alla volta per osservare da vicino le decorazioni di Leonardo da Vinci, accompagnati dai restauratori.",
         "extra": "",
@@ -60,8 +60,8 @@
       {
         "type": "preview",
         "date": "2026-01-20",
-        "start": "",
-        "end": "",
+        "start": "10:00",
+        "end": "12:00",
         "title": "Preview con visita guidata. Installazione “Milano e Leonardo. Un racconto immersivo della Sala delle Asse”",
         "description": "Un’installazione immersiva dedicata alla Sala delle Asse di Leonardo da Vinci accoglierà i visitatori nelle sale Panoramiche al terzo piano della Rocchetta. Attraverso proiezioni coinvolgenti e di grande impatto visivo verrà raccontato il ruolo di Leonardo e la storia travagliata della sala, attualmente interessata da un complesso restauro.",
         "extra": "",
@@ -72,8 +72,8 @@
       {
         "type": "preview-stampa",
         "date": "2026-01-20",
-        "start": "",
-        "end": "",
+        "start": "10:00",
+        "end": "12:00",
         "title": "Preview Stampa. Sala XXI “Intorno a Leonardo, nella Pinacoteca del Castello Sforzesco”",
         "description": "La sala XXI, dedicata agli artisti leonardeschi, sarà riallestita con nuove didascalie, pannelli e tavoli interattivi. Tra le opere esposte, risaltano le lunette di Bernardino Luini con i ritratti della genealogia degli Sforza, provenienti da casa degli Atellani e per molti anni conservate in una sala non accessibile al pubblico, oltre che uno straordinario San Giovanni Battista di Bernardino Zenale, da poco acquisito dal museo.",
         "extra": "",
@@ -84,8 +84,8 @@
       {
         "type": "preview-stampa",
         "date": "2026-01-20",
-        "start": "",
-        "end": "",
+        "start": "10:00",
+        "end": "12:00",
         "title": "Preview Stampa. Nuova vetrina per il dipinto della “Madonna Lia”",
         "description": "È stata allestita una nuova vetrina per accogliere la Madonna Lia di Francesco Galli, detto il Napoletano, pittore che seppe assimilare e reinterpretare la poetica innovatrice di Leonardo da Vinci grazie alla sua presenza nei vivaci cantieri milanesi promossi da Ludovico il Moro.",
         "extra": "",
