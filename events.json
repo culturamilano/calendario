@@ -175,6 +175,18 @@
         "maps": "https://maps.google.com/?q=MUDEC+Museo+delle+Culture+Milano"
       },
       {
+  "type": "preview",
+  "date": "2026-02-12",
+  "start": "15:00",
+  "end": "",
+  "title": "Preview. Mostra “Stefano Zardini: A visionary at altitude - N vijionar sö alalt”",
+  "description": "Una mostra dedicata al fotografo ampezzano Stefano Zardini, che reinterpreta l’archivio di famiglia con interventi cromatici e grafici in chiave pop: gli scatti dei pionieri della montagna si trasformano in simboli contemporanei. L’esposizione, curata da Margherita Palli in collaborazione con il Museo Lumen (Plan de Corones) e la Galleria Ikonos (Cortina), crea un ponte tra città e montagne, celebrando il coraggio e la creatività nello spirito olimpico.",
+  "extra": "Mostra alla Fabbrica del Vapore dal 13 febbraio al 13 marzo 2026",
+  "venue": "Fabbrica del Vapore",
+  "address": "Via Giulio Cesare Procaccini, 4, Milano",
+  "maps": "https://maps.google.com/?q=Fabbrica+del+Vapore+Milano"
+},
+      {
         "type": "conferenza-stampa",
         "date": "2026-02-26",
         "start": "",
