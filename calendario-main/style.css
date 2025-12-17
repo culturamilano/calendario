@@ -1,0 +1,564 @@
+
+
+/* =========================
+   FONTS
+========================= */
+
+@font-face {
+  font-family: "c2";
+  src: url("./fonts/c2.woff2") format("woff2"),
+       url("./fonts/c2.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "c3";
+  src: url("./fonts/c3.woff2") format("woff2"),
+       url("./fonts/c3.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* =========================
+   BASELINE
+========================= */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-top: none !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "c2", -apple-system, BlinkMacSystemFont, "Inter", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 1.45;
+  color: #000;
+  border: none;
+  border-top: none !important;
+}
+
+main {
+  width: 100%;
+}
+
+/* =========================
+   SUBTITLES
+========================= */
+
+.subtitle {
+    max-width: 410px;
+    margin: 0 auto;
+    padding: 2.6rem 1.5rem;
+    font-size: 0.95rem;
+    color: #222;
+    line-height: 1.4;
+}
+
+.subtitle.sub2 {
+  padding: 2.75rem 2.6rem;
+  border-top: 1px solid #000;
+  border-bottom: 0px solid #000;
+  background: #fff;
+  margin: 0px;
+  width: 100%;
+  max-width: 100%;
+}
+
+.subtitle a {
+  text-decoration: none;
+  color: #000;
+  font-family: 'c3', sans-serif;
+  font-weight: 700;
+}
+
+
+
+.subtitle p {
+  max-width: 600px;
+}
+
+
+.month-inner {
+    border-top: solid 1px #000;
+    width: 100%;
+    max-width: 100%;
+    border-bottom: solid 1px #000;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Header layout and fixed/sticky behaviour */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  background: #fff;
+  position: relative;
+  border: none;
+  border-top: none !important;
+  border-bottom: none !important;
+}
+
+.header-left h1 {
+  margin: 0;
+  font-family: "c3", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+.subtitle2 {
+    padding: 4em 2em;
+    border-top: solid 1px #000;
+    font-size: 0.95rem;
+    color: #333;
+    line-height: 1.35;
+    max-width: 100%;
+}
+
+.subtitle2.sociul {
+    border-bottom: solid 1px #000;
+    margin-bottom: 4em;
+}
+
+.subtitle2 a {
+    text-decoration: none!important;
+    color: #000!important;
+    font-family: 'c3', sans-serif;
+}
+
+button#export-pdf {
+    background: #fff;
+    border: solid 1px #000;
+    border-radius: 30px;
+    padding: 4px 19px;
+}
+
+button#export-pdf:hover {
+    background: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
+.header-actions {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.header-logo img {
+  height: 48px;
+  width: auto;
+}
+
+.header-logo {
+  height: 80px;
+  width: auto;
+}
+
+.newsletter-link {
+  font-size: 0.85rem;
+  text-decoration: none;
+  color: #000;
+}
+
+/* Social follow block next to newsletter */
+.social-follow {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 2.75rem 2.6rem;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+}
+
+.social-label {
+  font-weight: 600;
+  color: #222;
+}
+
+.social-link {
+  display: inline-block;
+  padding: 0.35rem 0.6rem;
+  border-radius: 6px;
+  background: #1877F2;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.85rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.social-link:hover {
+  opacity: 0.95;
+}
+
+.social-link.social-ig {
+  background: linear-gradient(45deg,#f58529,#dd2a7b,#8134af,#515bd4);
+}
+
+.social-link.social-x {
+  background: #111;
+}
+
+@media (max-width: 820px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    gap: 0.75rem 1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .header-left {
+    grid-column: 1;
+    grid-row: 2;
+    width: 100%;
+  }
+
+  .header-left h1 {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  .header-right {
+    grid-column: 2;
+    grid-row: 1;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-end;
+  }
+
+  button#export-pdf {
+    padding: 3px 14px;
+    font-size: 0.85rem;
+    order: 2;
+  }
+
+  .header-logo {
+    height: 60px;
+    width: auto;
+    order: 1;
+  }
+
+  .social-follow {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    margin-top: 0.4rem;
+  }
+
+  .social-link {
+    padding: 0.4rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.8rem;
+  }
+}
+
+.footer {
+  max-width: 1200px;
+  margin: 4rem auto 3rem;
+  padding: 0 1.5rem;
+  font-size: 0.95rem;
+  color: #111;
+}
+
+
+.month-section.month-separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-top: 1px solid #000;
+}
+
+
+.month-inner h2 {
+  margin: 0;
+  font-family: "c3", sans-serif;
+  font-size: 1.1rem;
+  padding:1.2em 2em;
+}
+
+/* =========================
+   EVENTS
+========================= */
+
+.event {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.event.event-separator::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+  border-top: 1px solid #000;
+}
+
+.three-col {
+  display: grid;
+  grid-template-columns: 260px 1fr 40px;
+  gap: 3rem;
+  padding: 2.2rem 1.5rem;
+  align-items: start;
+}
+
+/* =========================
+   EVENT META (LEFT)
+========================= */
+
+.event-meta {
+  font-size: 0.85rem;
+}
+
+.meta-date {
+  font-family: "c3", sans-serif;
+  margin-bottom: 0.2rem;
+  font-weight: 600;
+}
+
+.meta-time {
+  margin-bottom: 0.8rem;
+}
+
+.meta-location {
+  text-decoration: none;
+  color: #000;
+}
+
+/* screen arrow for links, hidden in print */
+.meta-location::after {
+  content: " ↗";
+  display: inline;
+  color: #666;
+  font-size: 0.9em;
+}
+
+.meta-location small {
+  font-size: 0.8rem;
+}
+
+/* =========================
+   EVENT MAIN (CENTER)
+========================= */
+
+.event-main {
+    max-width: 500px;
+}
+
+.event-main h3 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.event-main p {
+  margin: 0 0 0.6rem 0;
+}
+
+.event-main .extra {
+  font-size: 0.85rem;
+}
+
+
+/* Dim description and minor info by default, restore on hover */
+.event-main p,
+.event-main .extra,
+.meta-time,
+.meta-location small {
+  opacity: 0.5; /* visually subdued */
+  color: #333; /* ensure slightly gray tone */
+  transition: opacity 180ms ease, color 180ms ease;
+}
+
+.event:hover .event-main p,
+.event:hover .event-main .extra,
+.event:hover .meta-time,
+.event:hover .meta-location small {
+  opacity: 1;
+  color: #000;
+}
+
+/* =========================
+   EVENT ACTIONS (RIGHT)
+========================= */
+
+.event-actions {
+  position: relative;
+}
+
+.plus {
+  font-size: 1.3rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.calendar-menu {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 1.6rem;
+  border: 1px solid #000;
+  background: #fff;
+  z-index: 10;
+}
+
+.event-actions:hover .calendar-menu {
+  display: block;
+}
+
+.calendar-menu button {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.8rem;
+  background: none;
+  border: none;
+  text-align: left;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+
+.press-trigger {
+  font-weight: 700;
+  text-decoration: none;
+  color: #000;
+  margin-top: 0.15rem;
+}
+
+.press-contacts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-bottom:3em;
+}
+
+.press-contacts-title {
+  font-size: 1.1rem;
+  margin-left: 2em;
+}
+
+.press-contacts p {
+  margin: 0;
+  padding: 0;
+  /* keep font size consistent with rest */
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Slightly emphasize contact names and tidy minor info */
+.press-contacts strong {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.12rem;
+}
+
+.press-contacts a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.press-contacts a:hover {
+  text-decoration: underline;
+}
+
+/* remove the visual separator; use subtle spacing instead */
+.press-contacts p + p {
+  padding-left: 0.75rem;
+  border-left: none;
+}
+
+.footer-note {
+  margin-top: 2rem;
+  font-size: 0.75rem;
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 820px) {
+
+  header {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .subtitle {
+    padding: 1.5rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+
+  .subtitle p {
+    max-width: 100%;
+  }
+
+  .three-col {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .event.event-separator::before {
+    top: -1rem;
+  }
+
+  .event-actions {
+    margin-top: 0.5rem;
+  }
+
+  /* Stack press contacts on mobile */
+  .press-contacts {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .press-contacts p + p {
+    padding-left: 0;
+    border-left: none;
+  }
+
+  /* Ensure footer-left stacks cleanly on mobile */
+  .footer-left {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+}
+
