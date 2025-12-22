@@ -1,35 +1,5 @@
 [
   {
-    "month": "Dicembre 2025",
-    "monthKey": "202512",
-    "events": [
-      {
-        "type": "preview",
-        "date": "2025-12-18",
-        "start": "10:00",
-        "end": "12:00",
-        "title": "Preview. Mostra “L’Italia sulla neve”",
-        "description": "In occasione dei Giochi Olimpici invernali, la mostra racconta il rapporto degli italiani con la neve, gli sport invernali e il loro immaginario, attraverso manifesti, illustrazioni e materiali pubblicitari, con particolare attenzione alla moda legata alla vita in montagna e alle strategie di promozione turistica delle località alpine.",
-        "extra": "Mostra al Castello Sforzesco dal 19 dicembre 2025 al 22 marzo 2026",
-        "venue": "Sala Bertarelli, Castello Sforzesco",
-        "address": "Piazza Castello, Milano",
-        "maps": "https://maps.google.com/?q=Castello+Sforzesco+Milano"
-      },
-      {
-        "type": "preview",
-        "date": "2025-12-18",
-        "start": "18:00",
-        "end": "",
-        "title": "Preview. Mostra “De Pas, D’Urbino, Lomazzi. Fantasticamente effervescenti”",
-        "description": "Un omaggio a De Pas, D’Urbino e Lomazzi, autori di icone come la poltrona Blow e il divano Joe. La mostra mette in luce la loro ricerca su spazi abitativi flessibili, capaci di scardinare la rigidità della casa tradizionale e di immaginare un design democratico e rivoluzionario.",
-        "extra": "Mostra al CASVA | Centro di Alti Studi per le Arti Visive dal 19 dicembre 2025 al 12 aprile 2026",
-        "venue": "CASVA | Centro di Alti Studi per le Arti Visive",
-        "address": "Via Isernia, 5, 20148 Milano MI",
-        "maps": "https://maps.google.com/?q=CASVA+Via+Isernia+5+Milano"
-      }
-    ]
-  },
-  {
     "month": "Gennaio 2026",
     "monthKey": "202601",
     "events": [
