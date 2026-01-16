@@ -3,19 +3,7 @@
     "month": "Gennaio 2026",
     "monthKey": "202601",
     "events": [
-      {
-        "type": "conferenza-stampa",
-        "date": "2026-01-15",
-        "start": "12:00",
-        "end": "",
-        "title": "Conferenza Stampa. Mostra “The Gentleman. Stile e gioielli al maschile”",
-        "description": "Un percorso espositivo che ripercorre tre secoli di estetica maschile, con preziosi prestiti da archivi storici e maison come Bulgari e Damiani, e che illustra come gioielli e moda diventino strumenti per costruire identità e ruoli sociali.",
-        "extra": "Mostra a Palazzo Morando | Costume Moda Immagine dal 16 gennaio 2025 al 27 settembre 2026",
-        "venue": "Palazzo Morando | Costume Moda Immagine",
-        "address": "Via Sant’Andrea, 6, 20121 Milano MI",
-        "maps": "https://maps.google.com/?q=Palazzo+Morando+Milano"
-      },
-      {
+            {
         "type": "preview",
         "date": "2026-01-20",
         "start": "10:00",
