@@ -3,21 +3,7 @@
     "month": "Gennaio 2026",
     "monthKey": "202601",
     "events": [
-      {
-        "type": "conferenza-stampa",
-        "date": "2026-01-21",
-        "start": "11:00",
-        "end": "",
-        "title": "Conferenza Stampa. MuseoCity",
-        "description": "La decima edizione della manifestazione diffusa Milano MuseoCity, promossa dal Comune di Milano in collaborazione con l’Associazione MuseoCity ETS, proporrà un programma ampliato e rinnovato: dal 6 febbraio al 15 marzo 2026, sarà presentata la sezione speciale “In Vetrina”, con installazioni site-specific progettate per dialogare con gli spazi urbani mentre dal 27 febbraio al 5 marzo 2026 la manifestazione entrerà nel vivo con aperture straordinarie, visite guidate, laboratori, incontri e conferenze e la sezione “Museo Segreto”, per scoprire opere solitamente non esposte o presentate in modo inedito.",
-        "extra": "Dal 6 febbraio al 15 marzo 2026",
-        "venue": "Sala Conferenze di Palazzo Reale",
-        "address": "Piazza del Duomo, 12, Milano",
-        "maps": "https://maps.google.com/?q=Palazzo+Reale+Milano"
-      },
-
-
-  {
+        {
   "type": "conferenza-stampa",
   "date": "2026-01-27",
   "start": "11:00",
@@ -98,8 +84,8 @@
 },
       {
         "type": "conferenza-stampa",
-        "date": "2026-02-26",
-        "start": "",
+        "date": "2026-02-25",
+        "start": "12:30",
         "end": "",
         "title": "Conferenza Stampa. Mostra “Paul Troubetzkoy. Scultore della Belle Époque”",
         "description": "La mostra, curata da Omar Cucciniello e realizzata con il Musée d’Orsay, ripercorre la carriera di Troubetzkoy attraverso ritratti, sculture animaliste e opere moderne, restituendo il fascino del “principe scultore”, amato da élite e celebrità del suo tempo per i suoi bronzi, che restituiscono movimento e luce con un tocco quasi impressionista.",
