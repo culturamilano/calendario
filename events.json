@@ -3,18 +3,6 @@
     "month": "Gennaio 2026",
     "monthKey": "202601",
     "events": [
-        {
-  "type": "conferenza-stampa",
-  "date": "2026-01-27",
-  "start": "11:00",
-  "end": "",
-  "title": "Conferenza Stampa. Mostra “Metafisica/Metafisiche”",
-  "description": "Una grande mostra articolata in tre capitoli espositivi in tre grandi musei milanesi e accompagnata da un programma multidisciplinare diffuso in città. Il progetto, a cura di Vincenzo Trione, mette in dialogo i maestri della Metafisica con gli eredi internazionali e con gli allievi del XX e XXI secolo, offrendo una rilettura ampia e stratificata di una delle esperienze più influenti dell’arte del Novecento.",
-  "extra": "Mostra a Palazzo Reale e al Museo del Novecento dal 28 gennaio al 21 giugno 2026",
-  "venue": "Sala Conferenze di Palazzo Reale",
-  "address": "Piazza del Duomo, 12, Milano",
-  "maps": "https://maps.google.com/?q=Palazzo+Reale+Milano"
-},
 {
   "type": "conferenza-stampa",
   "date": "2026-01-28",
