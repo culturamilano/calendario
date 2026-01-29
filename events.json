@@ -1,24 +1,5 @@
 [
   {
-    "month": "Gennaio 2026",
-    "monthKey": "202601",
-    "events": [
-{
-  "type": "conferenza-stampa",
-  "date": "2026-01-28",
-  "start": "11:00",
-  "end": "",
-  "title": "Conferenza Stampa. Mostra “Robert Mapplethorpe. Le forme del desiderio”",
-  "description": "La retrospettiva, curata da Denis Curti, costituisce il secondo capitolo di una trilogia dedicata alla ricerca estetica di Robert Mapplethorpe. La mostra milanese presenta una selezione delle sue opere più iconiche e anticonformiste, tra nudi, ritratti e composizioni formali di straordinaria intensità, in cui il corpo umano diventa luogo di tensione, perfezione plastica e desiderio.",
-  "extra": "Mostra a Palazzo Reale dal 29 gennaio al 17 maggio 2026",
-  "venue": "Sala Conferenze di Palazzo Reale",
-  "address": "Piazza del Duomo, 12, Milano",
-  "maps": "https://maps.google.com/?q=Palazzo+Reale+Milano"
-}
-  ]
-  },
-
-  {
     "month": "Febbraio 2026",
     "monthKey": "202602",
     "events": [
