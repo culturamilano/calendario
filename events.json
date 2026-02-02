@@ -3,19 +3,7 @@
     "month": "Febbraio 2026",
     "monthKey": "202602",
     "events": [
-      {
-        "type": "conferenza-stampa",
-        "date": "2026-02-02",
-        "start": "11:00",
-        "end": "",
-        "title": "Conferenza Stampa. Mostra “I Macchiaioli”",
-        "description": "Una delle retrospettive più importanti sul movimento che influenzò la pittura europea dell’Ottocento e si intrecciò con le vicende del Risorgimento italiano, offrendo una nuova lettura dei Macchiaioli attraverso le ricerche più avanzate dei curatori della mostra: Francesca Dini, Elisabetta Matteucci e Fernando Mazzocca.",
-        "extra": "Mostra a Palazzo Reale dal 3 febbraio al 14 giugno 2026",
-        "venue": "Sala Conferenze di Palazzo Reale",
-        "address": "Piazza del Duomo, 12, Milano",
-        "maps": "https://maps.google.com/?q=Palazzo+Reale+Milano"
-      },
-      {
+            {
         "type": "conferenza-stampa",
         "date": "2026-02-03",
         "start": "12:00",
