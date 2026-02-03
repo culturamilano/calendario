@@ -5,18 +5,6 @@
     "events": [
             {
         "type": "conferenza-stampa",
-        "date": "2026-02-03",
-        "start": "12:00",
-        "end": "",
-        "title": "Conferenza Stampa. Mostra “Anselm Kiefer. Le Alchimiste”",
-        "description": "Un ciclo di teleri inediti di Anselm Kiefer, concepito per dialogare espressamente con la Sala delle Cariatidi e curato da Gabriella Belli, in cui l’artista contemporaneo rappresenta alcune delle donne alchimiste che hanno avuto un ruolo cruciale nella nascita del pensiero scientifico, intrecciando mito, memoria e rigenerazione.",
-        "extra": "Mostra nella Sala delle Cariatidi di Palazzo Reale dal 7 febbraio al 27 settembre 2026",
-        "venue": "Sala Conferenze di Palazzo Reale",
-        "address": "Piazza del Duomo, 12, Milano",
-        "maps": "https://maps.google.com/?q=Palazzo+Reale+Milano"
-      },
-      {
-        "type": "conferenza-stampa",
         "date": "2026-02-11",
         "start": "11:00",
         "end": "",
