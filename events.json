@@ -4,18 +4,6 @@
     "monthKey": "202602",
     "events": [
             {
-        "type": "conferenza-stampa",
-        "date": "2026-02-11",
-        "start": "11:00",
-        "end": "",
-        "title": "Conferenza Stampa. Mostra “Il senso della neve”",
-        "description": "In dialogo con le Olimpiadi Invernali, la mostra propone un percorso multidisciplinare che esplora la neve come fenomeno naturale, culturale e artistico, attraverso reperti etnografici, contributi scientifici, opere d’arte antica e installazioni contemporanee. L’esposizione, organizzata in collaborazione con la rete MIPAM | Musei Italiani con Patrimonio dal Mondo, estende la ricerca al modo in cui la neve è percepita e rappresentata in varie culture del mondo. Inoltre, il progetto curatoriale coinvolge la cittadinanza anche attraverso interventi di arte pubblica e un programma di talk.",
-        "extra": "Mostra al MUDEC | Museo delle Culture dal 12 febbraio al 28 giugno 2026",
-        "venue": "MUDEC | Museo delle Culture",
-        "address": "Via Tortona, 56, 20144 Milano MI",
-        "maps": "https://maps.google.com/?q=MUDEC+Museo+delle+Culture+Milano"
-      },
-      {
   "type": "preview",
   "date": "2026-02-12",
   "start": "15:00",
