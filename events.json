@@ -1,19 +1,19 @@
 [
   {
-    "month": "Febbraio 2026",
-    "monthKey": "202602",
+    "month": "Marzo 2026",
+    "monthKey": "202603",
     "events": [
       {
         "type": "conferenza-stampa",
-        "date": "2026-02-25",
-        "start": "12:30",
+        "date": "TBA",
+        "start": "TBA",
         "end": "",
-        "title": "Conferenza Stampa. Mostra “Paul Troubetzkoy. Scultore della Belle Époque”",
-        "description": "La mostra, curata da Omar Cucciniello e realizzata con il Musée d’Orsay, ripercorre la carriera di Troubetzkoy attraverso ritratti, sculture animaliste e opere moderne, restituendo il fascino del “principe scultore”, amato da élite e celebrità del suo tempo per i suoi bronzi, che restituiscono movimento e luce con un tocco quasi impressionista.",
-        "extra": "Mostra alla GAM | Galleria d’Arte Moderna dal 27 febbraio al 28 giugno 2026",
-        "venue": "GAM | Galleria d’Arte Moderna",
-        "address": "Via Palestro, 16, 20121 Milano MI",
-        "maps": "https://maps.google.com/?q=GAM+Galleria+d'Arte+Moderna+Milano"
+        "title": "Conferenza Stampa. Mostra "TBA"",
+        "description": "TBA",
+        "extra": "Mostra TBA | dal TBA al TBA",
+        "venue": "TBA",
+        "address": "TBA",
+        "maps": "TBA"
       }
     ]
   }
